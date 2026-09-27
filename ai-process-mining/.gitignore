@@ -1,0 +1,31 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data created by running the app
+backend/uploads/
+backend/*.db
+*.sqlite3
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
